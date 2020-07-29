@@ -1,0 +1,12 @@
+$(function(){
+    $(".dangnhap").animate({opacity:0,marginLeft:-100})
+    //$(".dangki").animate({opacity:0,marginRight:-500})
+    $(".nut1").click(function(event){
+        $(".dangki").animate({opacity:0,marginLeft:-100})
+        $(".dangnhap").animate({opacity:1,marginLeft:0})
+    })
+    $(".nut2").click(function(event){
+        $(".dangnhap").animate({opacity:0,marginLeft:-100})
+        $(".dangki").animate({opacity:1,marginLeft:0})
+    })
+})

@@ -1,0 +1,29 @@
+*{margin: 0;padding: 0;}
+.dangki {
+    width: 470px;
+    height: 450px;
+    position: fixed;
+    left: 50%;
+    background: red;
+    border: 1px solid darkred;
+    padding: 20px;
+    top: 100px;
+    transform: translate( -50%);
+
+}
+.dangnhap  {
+    width: 400px;
+    height: 450px;
+    position: fixed;
+    left: 50%;
+    background:yellow;
+    border: 1px solid darkred;
+    padding: 20px;
+    top: 100px;
+    transform: translate( -50%);
+
+}
+.nut1 , .nut2{
+    float: right;
+
+}
