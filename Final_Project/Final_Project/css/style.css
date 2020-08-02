@@ -44,24 +44,44 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.container{
+	margin: 0 auto;
+	height: 100%;
+	width: 1100px;
+}
+
 /*===============================*/
 /*===========HEADER==========*/
 /*===============================*/
 .page-header{
-	background: #006799;
+	height: 81px;
 	width: 100%;
-	color: rgb(255, 255, 255);
-	
-	height: 80px;
+	background: #006799;
+	color: rgb(240, 240, 240);
 }
-.page-logo img{
+.page-header a{
+	color: inherit;
+
+}
+.header-left{
 	float: left;
 	display: flex;
-
+	height: 100%;
+}
+.header-right{
+	float: right;
+	display: flex;
+	height: 100%;
 }
 .page-nav ul{
-	
 	display: flex;
 	align-items: center;
-
-} 
+	height: 100%;
+}
+.page-logo{
+	position: relative;
+	width: 280px;
+}
+.page-logo img{
+	position: absolute;
+}
