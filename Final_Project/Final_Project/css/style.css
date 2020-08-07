@@ -53,35 +53,28 @@ table {
 /*===============================*/
 /*===========HEADER==========*/
 /*===============================*/
-.page-header{
-	height: 81px;
+body {
+    position: relative;
+    background: #fff;
+    color: #444;
+    letter-spacing: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    font-family: Arial, sans-serifal;
+    line-height: 1.5;
+}
+.siteheader{
 	width: 100%;
 	background: #006799;
-	color: rgb(240, 240, 240);
 }
-.page-header a{
-	color: inherit;
-
+.menu ul li a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	padding-left: 7px;
+	padding-right: 7px;
 }
-.header-left{
-	float: left;
-	display: flex;
-	height: 100%;
-}
-.header-right{
-	float: right;
-	display: flex;
-	height: 100%;
-}
-.page-nav ul{
-	display: flex;
-	align-items: center;
-	height: 100%;
-}
-.page-logo{
-	position: relative;
-	width: 280px;
-}
-.page-logo img{
-	position: absolute;
+.search-item{
+	color: #fff;
+	padding-left: 5px;
 }
