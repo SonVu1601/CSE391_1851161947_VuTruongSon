@@ -91,3 +91,42 @@ body {
     vertical-align: middle;
     width: 500px;
 }
+.button {
+    background-color: #414141;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+	border: 2px solid #fff;
+}
+
+.maincontent1{
+	z-index: 100;
+    padding: 30px 0;
+    background: #fff;
+    padding-bottom: 30px;
+}
+.start {
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+.start p {
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 11px;
+	padding-top: 0px;
+    font-size: 16px;
+    padding-left: 20px;
+    float: left;
+}
+
+.button-cnk {
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
