@@ -130,3 +130,112 @@ body {
     margin-bottom: 0px;
     
 }
+.maincontent2{
+    padding:30px 0 ;
+}
+.panel-heading{
+    background: #0070aa none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.myimg{
+    left: -34px;
+    position: absolute;
+    top: -43px;
+}
+.panel-heading-2 {
+    background: #0070aa none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.panelbody {
+    position: relative;
+    margin-top: 20px;
+    padding: 20px 35px;
+    top: -15px;
+}
+.lichkhaigiang .calendar .thungay {
+    background: #0070aa none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+    text-indent: 0;
+}
+.lichkhaigiang .calendar .ngay {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    text-indent: 0;
+}
+.panel {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 0;
+    color: #000;
+}
+.lichkhaigiang .calendar {
+    width: 80px;
+    text-align: center;
+}
+.text2{
+    margin-left: 20px;
+    width: 70%;
+    text-indent: 0px;
+    float: left;
+    text-align: justify;
+}
+.text2 a{
+    text-indent: 0px !important;
+    font-size: 14px;
+    outline: none;
+    color: #105f84;
+    text-decoration: none;
+    line-height: inherit;
+    
+    
+}
+
+.lichkhaigiang ul li{
+    display: flex;
+    margin-bottom: 20px;
+}
+.lichkhaigiang ul{
+    margin-bottom: 25px;
+}
+a.btn.btn-primary.mybtn{
+    left: -1px;
+    position: absolute;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 0px;
+    background-color:rgb(0, 112, 170);
+    border: none;
+}
+a.btn.btn-primary.mybtn2{
+    right: -1px;
+    position: absolute;
+    width: 220px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 0px ;
+    background-color:rgb(0, 112, 170);
+    border: none;
+
+}
