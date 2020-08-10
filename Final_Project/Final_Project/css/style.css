@@ -291,3 +291,22 @@ a.btn.btn-primary.mybtn2{
     border-bottom: 2px solid #0070aa;
     padding: 20px;
 }
+.video .row {
+    border: 1px solid #ddd;
+    background: #fff;
+    overflow: hidden;
+    
+}
+.video ul li img {
+    width: 80%;
+    border-radius: 50%;
+    margin-left: 10px !important;
+}
+.video p {
+    color: #3c3c3c;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    text-decoration: none;
+    float: left;
+}
